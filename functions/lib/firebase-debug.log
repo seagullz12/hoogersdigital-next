@@ -1,0 +1,22 @@
+[debug] [2025-10-18T22:02:34.477Z] ----------------------------------------------------------------------
+[debug] [2025-10-18T22:02:34.482Z] Command:       /Users/stefanhoogers/.nvm/versions/node/v22.20.0/bin/node /Users/stefanhoogers/.nvm/versions/node/v20.19.5/bin/firebase deploy --only functions
+[debug] [2025-10-18T22:02:34.483Z] CLI Version:   14.20.0
+[debug] [2025-10-18T22:02:34.483Z] Platform:      darwin
+[debug] [2025-10-18T22:02:34.483Z] Node Version:  v22.20.0
+[debug] [2025-10-18T22:02:34.483Z] Time:          Sun Oct 19 2025 00:02:34 GMT+0200 (Central European Summer Time)
+[debug] [2025-10-18T22:02:34.483Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-18T22:02:34.588Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-18T22:02:34.588Z] > authorizing via signed-in user (stefanhoogers@gmail.com)
+[debug] [2025-10-18T22:02:34.588Z] [iam] checking project hoogersdigital for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2025-10-18T22:02:34.589Z] Checked if tokens are valid: true, expires at: 1760826660194
+[debug] [2025-10-18T22:02:34.589Z] Checked if tokens are valid: true, expires at: 1760826660194
+[debug] [2025-10-18T22:02:34.590Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/hoogersdigital:testIamPermissions [none]
+[debug] [2025-10-18T22:02:34.590Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/hoogersdigital:testIamPermissions x-goog-quota-user=projects/hoogersdigital
+[debug] [2025-10-18T22:02:34.590Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hoogersdigital:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-10-18T22:02:35.284Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/hoogersdigital:testIamPermissions 200
+[debug] [2025-10-18T22:02:35.284Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hoogersdigital:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-10-18T22:02:35.285Z] Checked if tokens are valid: true, expires at: 1760826660194
+[debug] [2025-10-18T22:02:35.285Z] Checked if tokens are valid: true, expires at: 1760826660194
+[debug] [2025-10-18T22:02:35.285Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/hoogersdigital/serviceAccounts/hoogersdigital@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-10-18T22:02:35.285Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/hoogersdigital/serviceAccounts/hoogersdigital@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}

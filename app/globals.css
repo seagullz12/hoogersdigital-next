@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 218 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 218 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 218 25% 15%;
+
+    --primary: 218 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 218 90% 60%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 218 25% 15%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 218 15% 45%;
+
+    --accent: 280 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 218 85% 45%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 218 25% 10%;
+    --foreground: 0 0% 98%;
+
+    --card: 218 20% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 218 20% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 218 85% 55%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 218 90% 65%;
+
+    --secondary: 218 20% 16%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 218 20% 16%;
+    --muted-foreground: 218 15% 65%;
+
+    --accent: 280 80% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 218 20% 20%;
+    --input: 218 20% 20%;
+    --ring: 218 85% 55%;
+  }
+}
+
+@layer base {
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/blog/page": "/blog",
+  "/contact/page": "/contact",
+  "/experience/page": "/experience",
+  "/home/page": "/home",
+  "/index/page": "/index",
+  "/not-found/page": "/not-found",
+  "/page": "/"
+}
