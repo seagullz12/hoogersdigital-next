@@ -113,8 +113,10 @@ const config: Config = {
         "float": "float 3s ease-in-out infinite",
       },
     },
-  },
-  plugins: [],
+   },
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 
 export default config

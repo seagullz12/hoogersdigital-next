@@ -23,7 +23,7 @@ const Home = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center animate-fade-in">
               <h1 className="text-4xl font-bold tracking-tight sm:text-6xl mb-6">
-                Stefan Hoogers: Empowering Organizations with{" "}
+                Hoogers Digital: Empowering Organizations with{" "}
                 <span className="bg-gradient-primary bg-clip-text text-transparent">data-driven AI solutions</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8">
