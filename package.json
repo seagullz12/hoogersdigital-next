@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "start-": "firebase emulators:start --only functions",
-    "export": "next export"
+    "export": "next export",
+    "copy-next": "rm -rf functions/.next && cp -R .next functions/",
+    "deploy": "npm run build && npm run copy-next && firebase deploy --only functions,hosting"
+
   },
   "dependencies": {
     "@next/third-parties": "^15.5.6",

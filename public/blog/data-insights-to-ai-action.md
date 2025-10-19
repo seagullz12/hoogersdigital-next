@@ -1,3 +1,9 @@
+---
+date: "2025-10-18"
+category: "AI & Analytics"
+readTime: "8 min read"
+---
+
 # From data insights to AI action: The new era of customer analytics
 
 We've gotten really good at collecting data. Tools like [Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html), [Google Analytics](https://analytics.google.com/) and, for visualization, [Power BI](https://powerbi.microsoft.com/) show us exactly what customers do on our websites. We can see where they click, when they leave, and what makes them buy.
